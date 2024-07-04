@@ -374,5 +374,6 @@ const bills = [
 ];
 
 // Start coding here
+const ordersWithMembers = bills.filter(order => order.member !== null);
 
-const newBills;
+console.log(ordersWithMembers);
